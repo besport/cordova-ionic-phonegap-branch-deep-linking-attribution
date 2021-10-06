@@ -63,7 +63,7 @@ SOFTWARE.
     <!-- Manifest configuration is done via a js script.  We should move it to this config in the future. -->
 
     <source-file src="src/android/io/branch/BranchSDK.java" target-dir="src/io/branch" />
-    <framework src="io.branch.sdk.android:library:5.0.8"/>
+    <framework src="io.branch.sdk.android:library:5.0.14"/>
     <framework src="com.google.android.gms:play-services-ads:15.0.1"/>
   </platform>
 
@@ -88,7 +88,7 @@ SOFTWARE.
               <source url="https://cdn.cocoapods.org/"/>
           </config>
           <pods>
-              <pod name="Branch" spec="~> 1.39.2" />
+              <pod name="Branch" spec="~> 1.39.4" />
           </pods>
       </podspec>
   </platform>
